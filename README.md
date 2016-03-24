@@ -1,6 +1,6 @@
 # circle_JT
-一个使用canvas编写的圆形进度条
-======
+####一个使用canvas编写的圆形进度条
+
 ##how to use
 <body><br>
 	<div id="dom"></div><br>
