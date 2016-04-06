@@ -3,8 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<script type="text/javascript" src="lib/jquery-1.11.0.js" ></script>
-		<script type="text/javascript" src="lib/ceshi.js" ></script>
-		<script type="text/javascript" src="lib/circle_JT.js" ></script>
+		<script type="text/javascript" src="lib/circle_JT_min.js" ></script>
 		<title>canvas画图</title>
 	</head>
 	<body>
@@ -14,14 +13,19 @@
 		<script>
 			$.circleJt({
 				domId:'dom',//必须
-				radius:20,//必须
-				pbColor:'green',//必需
-                pbWidth:'5',//非必需
-                value:780,//必须
-                totalValue:1000,//非必需
-                percentage:true,//非必需
-                fontSize:6,
+				radius:100,//必须
+				pbColor:'#00796b',//必需
+                pbWidth:10,//非必需
+              	value:0,//必须
+              	totalValue:1000,//非必需
+              	percentage:true,//非必需
+                fontSize:30,
+                
+                clock:true,//如果clock为真的时候，上述属性除value,totalValue,percentage均全都无效
+                digitalWatch:true//以电子表形式显示
 			});
+			
+			
 		</script>
 	</body>
 </html>
